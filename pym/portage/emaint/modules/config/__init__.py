@@ -10,7 +10,7 @@ module_spec = {
 	'description': doc,
 	'provides':{
 		'module1': {
-			'name': "cleanconfmem",
+			'name': "config",
 			'class': "CleanConfig",
 			'description': doc,
 			'functions': ['check', 'fix'],

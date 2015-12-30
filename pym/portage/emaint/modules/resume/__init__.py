@@ -10,7 +10,7 @@ module_spec = {
 	'description': doc,
 	'provides':{
 		'module1': {
-			'name': "cleanresume",
+			'name': "resume",
 			'class': "CleanResume",
 			'description':  "Discard emerge --resume merge lists",
 			'functions': ['check', 'fix'],

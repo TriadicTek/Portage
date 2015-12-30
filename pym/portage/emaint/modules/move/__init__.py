@@ -10,7 +10,7 @@ module_spec = {
 	'description': doc,
 	'provides':{
 		'module1': {
-			'name': "moveinst",
+			'name': "move",
 			'class': "MoveInstalled",
 			'description': doc,
 			'options': ['check', 'fix'],
@@ -19,7 +19,7 @@ module_spec = {
 				}
 			},
 		'module2':{
-			'name': "movebin",
+			'name': "move",
 			'class': "MoveBinary",
 			'description': "Perform package move updates for binary packages",
 			'functions': ['check', 'fix'],
