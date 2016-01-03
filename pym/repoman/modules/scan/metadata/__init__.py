@@ -10,9 +10,17 @@ module_spec = {
 	'name': 'metadata',
 	'description': doc,
 	'provides':{
-		'metadata-module': {
+		'pkg-metadata': {
 			'name': "pkgmetadata",
 			'class': "PkgMetadata",
+			'description': doc,
+			'functions': ['check'],
+			'func_desc': {
+			},
+		},
+		'ebuild-metadata': {
+			'name': "ebuild_metadata",
+			'class': "EbuildMetadata",
 			'description': doc,
 			'functions': ['check'],
 			'func_desc': {
