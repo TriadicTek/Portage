@@ -26,6 +26,14 @@ module_spec = {
 			'func_desc': {
 			},
 		},
+		'description-metadata': {
+			'name': "description",
+			'class': "DescriptionChecks",
+			'description': doc,
+			'functions': ['check'],
+			'func_desc': {
+			},
+		},
 	}
 }
 
