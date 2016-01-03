@@ -34,6 +34,14 @@ module_spec = {
 			'func_desc': {
 			},
 		},
+		'license-metadata': {
+			'name': "license",
+			'class': "LicenseChecks",
+			'description': doc,
+			'functions': ['check'],
+			'func_desc': {
+			},
+		},
 	}
 }
 
