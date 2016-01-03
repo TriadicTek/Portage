@@ -18,6 +18,14 @@ module_spec = {
 			'func_kwargs': {
 			},
 		},
+		'mtime-module': {
+			'name': "mtime",
+			'class': "MtimeChecks",
+			'description': doc,
+			'functions': ['check'],
+			'func_kwargs': {
+			},
+		},
 	}
 }
 
