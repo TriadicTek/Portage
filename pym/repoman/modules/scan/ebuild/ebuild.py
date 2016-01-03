@@ -35,6 +35,7 @@ class Ebuild(ScanBase):
 		self.eapi = None
 		self.inherited = None
 		self.keywords = None
+		self.archs = None
 
 	def _set_paths(self, **kwargs):
 		repolevel = kwargs.get('repolevel')
