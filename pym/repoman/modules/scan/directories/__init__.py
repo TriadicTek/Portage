@@ -26,6 +26,14 @@ module_spec = {
 			'func_kwargs': {
 			},
 		},
+		'encoding-module': {
+			'name': "encoding",
+			'class': "EncodingCheck",
+			'description': doc,
+			'functions': ['check'],
+			'func_kwargs': {
+			},
+		},
 	}
 }
 
