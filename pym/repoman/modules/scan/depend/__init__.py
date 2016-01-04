@@ -26,6 +26,14 @@ module_spec = {
 			'func_desc': {
 			},
 		},
+		'unknown-module': {
+			'name': "unknown",
+			'class': "DependUnknown",
+			'description': doc,
+			'functions': ['check'],
+			'func_desc': {
+			},
+		},
 	}
 }
 
