@@ -18,6 +18,14 @@ module_spec = {
 			'func_desc': {
 			},
 		},
+		'profile-module': {
+			'name': "profile",
+			'class': "ProfileDependsChecks",
+			'description': doc,
+			'functions': ['check'],
+			'func_desc': {
+			},
+		},
 	}
 }
 
