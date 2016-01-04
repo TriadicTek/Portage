@@ -50,6 +50,14 @@ module_spec = {
 			'func_desc': {
 			},
 		},
+		'unused-metadata': {
+			'name': "unused",
+			'class': "UnusedCheck",
+			'description': doc,
+			'functions': ['check'],
+			'func_desc': {
+			},
+		},
 	}
 }
 
