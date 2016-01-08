@@ -18,6 +18,14 @@ module_spec = {
 			'func_kwargs': {
 			},
 		},
+		'ruby-module': {
+			'name': "ruby",
+			'class': "RubyEclassChecks",
+			'description': doc,
+			'functions': ['check'],
+			'func_kwargs': {
+			},
+		},
 	}
 }
 
