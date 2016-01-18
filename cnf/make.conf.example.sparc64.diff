@@ -1,5 +1,5 @@
---- make.conf.example	2016-01-18 11:52:14.605264708 -0500
-+++ make.conf.example	2016-01-18 12:01:27.530291468 -0500
+--- make.conf.example
++++ make.conf.example
 @@ -22,6 +22,15 @@
  # Example:
  #USE="X gtk gnome -alsa"
