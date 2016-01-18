@@ -11,7 +11,7 @@
 +# destroying your system, you will receive no support and your bugs will be 
 +# marked INVALID if you change this.
 +#
-+# CHOST="sparc-unknown-linux-gnu"
++# CHOST="sparc64-unknown-linux-gnu"
 +
  # Host and optimization settings 
  # ==============================
